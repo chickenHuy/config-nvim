@@ -51,7 +51,12 @@ require("lazy").setup({
 	require("plugins.indent-blankline"),
 	require("plugins.noice"),
 	require("plugins.lazygit"),
+	require("plugins.toggleterm"),
 })
+
+local buffer_popup = require("customs.show-buffers")
+vim.keymap.set("n", "<leader>fb", buffer_popup.ShowBufferPopup, { desc = "Show buffer popup" })
+
 
 vim.api.nvim_create_autocmd("InsertLeave", {
 	pattern = "*",

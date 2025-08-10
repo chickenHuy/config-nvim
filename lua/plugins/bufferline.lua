@@ -32,7 +32,7 @@ return {
 				always_show_bufferline = true,
 				show_tab_indicators = false,
 				indicator = {
-					icon = " ", -- this should be omitted if indicator style is not 'icon'
+					icon = "✏️", -- this should be omitted if indicator style is not 'icon'
 					style = "icon", -- Options: 'icon', 'underline', 'none'
 				},
 				icon_pinned = "󰐃",

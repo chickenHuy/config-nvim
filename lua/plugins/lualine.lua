@@ -39,7 +39,8 @@ return {
     require('lualine').setup {
       options = {
         icons_enabled = true,
-        theme = 'onedark', -- Set theme based on environment variable
+        theme = 'tokyonight',
+        -- theme = 'onedark', -- Set theme based on environment variable
         -- Some useful glyphs:
         -- https://www.nerdfonts.com/cheat-sheet
         --        

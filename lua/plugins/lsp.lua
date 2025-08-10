@@ -116,6 +116,7 @@ return {
 			docker_compose_language_service = require("plugins.lsp-configs.docker-compose").default_config,
 			markdown_oxide = require("plugins.lsp-configs.markdownls").default_config,
 			nginx_language_server = require("plugins.lsp-configs.nginxls").default_config,
+			ruby_lsp = require("plugins.lsp-configs.ruby-lsp"),
 
 			lua_ls = {
 				settings = {

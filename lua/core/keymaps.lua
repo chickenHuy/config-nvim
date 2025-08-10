@@ -73,4 +73,3 @@ vim.keymap.set('n', '<leader>d', vim.diagnostic.open_float, { desc = 'Open float
 vim.keymap.set('n', '<leader>q', vim.diagnostic.setloclist, { desc = 'Open diagnostics list' })
 
 vim.api.nvim_set_keymap("n", "<leader>fm", "<cmd>lua require('conform').format({ async = true })<CR>", { noremap = true, silent = true })
-
